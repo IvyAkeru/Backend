@@ -71,7 +71,7 @@ server.use(cors());
 passportJwt(passport);
 
 // Enter your database connection URL
-const dbURL = "mongodb+srv://User_1:<ilovefood>@cluster0-q5fds.mongodb.net/<Test>?retryWrites=true&w=majority";
+const dbURL = "mongodb+srv://User_1:ilovefood@cluster0-q5fds.mongodb.net/Test?retryWrites=true&w=majority";
 
 mongoose.connect(
     dbURL,
